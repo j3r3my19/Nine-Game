@@ -10,9 +10,9 @@ import locale
 
 
 
-MINIMUM_NUMBER_TO_END_ROUND = 9
+NUMBER_TO_END_ROUND = 9
 
-ELIMINATION_SCORE_THRESHOLD = 30
+ELIMINATION_SCORE_THRESHOLD = 150
 
 
 def close_window(root):
@@ -207,12 +207,12 @@ def display_finish_button(root, player, players_list, display_type, left_panel, 
     style = ttk.Style()
     style.configure("TButton", padding=10, relief="flat", background="white", foreground="black", font=('Arial', 12))
 
-    if player_class.Player.count_hand(player) <= MINIMUM_NUMBER_TO_END_ROUND:
+    if player_class.Player.count_hand(player) <= NUMBER_TO_END_ROUND:
         # Check if the player has fewer cards than the minimum to end the round
 
         if display_type == 'normal':
             # Display the "FINISH" button
-            button_finish = ttk.Button(left_panel, text="FINISH",
+            button_finish = ttk.Button(left_panel, text="END ROUND",
                                        command=lambda: click_to_finish(player, players_list, root, round_number),
                                        style='TButton')
             button_finish.pack(pady=10)

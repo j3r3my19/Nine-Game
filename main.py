@@ -4,7 +4,7 @@ from player_class import Player
 import pandas as pd
 
 
-ELIMINATION_SCORE_THRESHOLD = 30
+ELIMINATION_SCORE_THRESHOLD = 150
 MAXIMUM_NUMBER_OF_PLAYERS = 6
 
 
