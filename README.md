@@ -1,6 +1,6 @@
 # Nine-Game
 
-## Welcome to this awesome local multiplayer cards game. As I was not able to find the rules online (this game may have been invented by a friend, that's the legend), you can find the rules at the end of the readme.
+# Welcome to this awesome local multiplayer cards game. As I was not able to find the rules online (this game may have been invented by a friend, that's the legend), you can find the rules at the end of the readme.
 
 ## Install
 
