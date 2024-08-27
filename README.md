@@ -27,14 +27,14 @@ End of Game:
 The game concludes when only one player is not eliminated. A final score table is displayed at the end.
 
 Card Values:
-Ace: 1 point
-King, Queen, Jack, 10: 10 points each
-9: 9 points
-8: 8 points
-7: 7 points
-6: 6 points
-5: 5 points
-4: 4 points
-3: 3 points
-2: 2 points
-Joker: -1 point
+Ace: 1 point,
+King, Queen, Jack, 10: 10 points each,
+9: 9 points,
+8: 8 points,
+7: 7 points,
+6: 6 points,
+5: 5 points,
+4: 4 points,
+3: 3 points,
+2: 2 points,
+Joker: -1 point,
