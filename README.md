@@ -1,5 +1,27 @@
 # Nine-Game
 
+## Welcome to this awesome local multiplayer cards game. As I was not able to find the rules online (this game may have been invented by a friend, that's the legend), you can find the rules at the end of the readme.
+
+## Install
+
+1. Install required packages
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Start the game
+
+```bash
+python run main.py
+```
+
+3. Initialize the game
+
+Set the number of players (6 max)
+Set the names of players and confirm
+A local window starts and the game begins !
+
 ## Rules
 
 Gameplay:
